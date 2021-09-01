@@ -1,6 +1,6 @@
 package reg
 
-import "yingyi.cn/go-trade/trade/websockets"
+import "github.com/yongjie0203/go-trade-order/websockets"
 
 type HandlerGroup struct {
 	handlers map[string]websockets.Handler

@@ -4,9 +4,9 @@ import (
 	"github.com/micro/go-micro/util/log"
 	"math"
 	"time"
-	"yingyi.cn/go-trade-core/core/order"
-	"yingyi.cn/go-trade-order/trade/db"
-	"yingyi.cn/go-trade-order/trade/model"
+	"github.com/yongjie0203/go-trade-core/core/order"
+	"github.com/yongjie0203/go-trade-order/trade/db"
+	"github.com/yongjie0203/go-trade-order/trade/model"
 )
 
 func OnTransaction(sell, buy order.Order, num float64) {

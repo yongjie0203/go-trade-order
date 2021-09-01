@@ -1,6 +1,6 @@
 package reg
 
-import "yingyi.cn/go-trade/trade/handler"
+import "github.com/yongjie0203/go-trade-order/handler"
 
 func SetupRouter() {
 

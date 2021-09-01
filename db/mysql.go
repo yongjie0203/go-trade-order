@@ -1,11 +1,11 @@
 package db
 
 import (
+	"github.com/yongjie0203/go-trade-order/model"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
 	"log"
-	"github.com/yongjie0203/go-trade-order/model"
 )
 
 var Coon *gorm.DB
